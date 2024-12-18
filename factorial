@@ -27,7 +27,7 @@ int main() {
     int num;
     std::cin >> num;
 
-    std::cout << "Факториал числа " << num << " равен " << factorial(num) << std::endl;
+    std::cout << "Сумма " << num << " равен " << sum(num) << std::endl;
    
     return 0;
 }
