@@ -28,6 +28,17 @@ int main() {
     std::cin >> num;
 
     std::cout << "Сумма " << num << " равен " << sum(num) << std::endl;
+
+
+int main() {
+    setlocale(LC_ALL, "Ru");
+    
+    std::cout << "Введите число: ";
+    std::cout << "Введите число2: ";
+    int num, num2;
+    std::cin >> num;
+    std::cin >> num2;
+    std::cout << "Сумма " << num << num2 << " равен " << (num + num2) << std::endl;
    
     return 0;
 }
