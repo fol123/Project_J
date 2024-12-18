@@ -22,7 +22,7 @@ void clearScreen() {
 
 int main() {
     setlocale(LC_ALL, "Ru");
-    
+    std::cout << "Ввwcwdwefwefwfwefwfeедите число: ";
     std::cout << "Введите число: ";
     int num;
     std::cin >> num;
